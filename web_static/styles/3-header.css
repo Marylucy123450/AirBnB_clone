@@ -1,0 +1,21 @@
+header {
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+    display: flex;
+    align-items: center;
+}
+
+#header_logo {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    background-image: url('../images/icon.png'); /* Replace with your logo image path */
+    background-size: cover; /* Ensures the image covers the entire div */
+    margin-left: 20px; /* Adjust the space at the left as needed */
+}
+
+header p {
+    margin: 0;
+    margin-left: 5px; /* Adjust the space between logo and text as needed */
+}
